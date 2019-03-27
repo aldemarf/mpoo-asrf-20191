@@ -1,20 +1,21 @@
 public class Aluno extends Pessoa {
-    private String anoEntrada;
-    private String periodoEntrada;
+    private int anoEntrada;
+    private int periodoEntrada;
+    private
 
-    public String getAnoEntrada() {
+    public short getAnoEntrada() {
         return anoEntrada;
     }
 
-    public void setAnoEntrada(String anoEntrada) {
+    public void setAnoEntrada(short anoEntrada) {
         this.anoEntrada = anoEntrada;
     }
 
-    public String getPeriodoEntrada() {
+    public byte getPeriodoEntrada() {
         return periodoEntrada;
     }
 
-    public void setPeriodoEntrada(String periodoEntrada) {
+    public void setPeriodoEntrada(byte periodoEntrada) {
         this.periodoEntrada = periodoEntrada;
     }
 }

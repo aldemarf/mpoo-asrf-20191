@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.Locale;
 
 public class Application {
     public static void main(String[] args) {
@@ -6,8 +7,8 @@ public class Application {
 
         aluno01.setNome("Chico");
         aluno01.setCpf("000.000.000-00");
-        aluno01.setAnoEntrada("2018");
-        aluno01.setPeriodoEntrada("01");
+        aluno01.setAnoEntrada((short)2018);
+        aluno01.setPeriodoEntrada((byte)1);
 
         Endereco endereco01 = new Endereco();
         endereco01.setCidade("Recife");
@@ -38,12 +39,8 @@ public class Application {
         profaluno.setAnoEntrada("2018");
         */
 
-        // TODO: Criar metodo para transformar professor em aluno
-        // TODO: Criar metodo par transformar aluno em professor
-        // TALVEZ CRIAR RELACAO EM VEZ DE HERANCA
-
-
         System.out.println(aluno01.getEnderecos().get(0));
         System.out.println(professor01.getEnderecos().get(0));
+
     }
 }

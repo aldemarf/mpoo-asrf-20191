@@ -38,16 +38,6 @@ public class Endereco {
 
     @Override
     public String toString() {
-        // return "".format("%s, %s, %s, %s", this.getRua(), this.getNumero(), this.getComplemento(), this.getCidade());
-        StringBuilder buffer = new StringBuilder("")
-                .append(this.getRua())
-                .append(", ")
-                .append(this.getNumero())
-                .append(", ")
-                .append(this.getComplemento())
-                .append(", ")
-                .append(this.getCidade());
-        return buffer.toString();
-
+        return "%s, %s, %s, %s".format(this.getRua(), this.getNumero(), this.getComplemento(), this.getCidade());
     }
 }

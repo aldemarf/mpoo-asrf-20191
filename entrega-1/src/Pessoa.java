@@ -4,6 +4,7 @@ public class Pessoa {
     private String nome;
     private String cpf;
     private ArrayList<Endereco> enderecos = new ArrayList<>();
+    private ArrayList funcoes = new ArrayList<>();
 
     public String getNome() {
         return nome;
