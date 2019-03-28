@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+// METODO 02 DE CONVERSAO -- INSTANCIAR PESSOA COM LISTA DE FUNCOES PARA NAO ARMAZENAR EM DUPLICIDADE OS DADOS
+
+
 public class Pessoa2 {
     private String nome;
     private String cpf;
