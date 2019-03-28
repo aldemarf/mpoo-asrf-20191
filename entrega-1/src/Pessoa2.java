@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 
-public class Pessoa {
+public class Pessoa2 {
     private String nome;
     private String cpf;
     private ArrayList<Endereco> enderecos = new ArrayList<>();
+    private ArrayList funcoes = new ArrayList();
 
     public String getNome() {
         return nome;
@@ -27,5 +28,13 @@ public class Pessoa {
 
     public void setEnderecos(ArrayList<Endereco> enderecos) {
         this.enderecos = enderecos;
+    }
+
+    public ArrayList getFuncoes() {
+        return funcoes;
+    }
+
+    public void setFuncoes(ArrayList funcoes) {
+        this.funcoes = funcoes;
     }
 }
